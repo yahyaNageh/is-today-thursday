@@ -22,6 +22,7 @@ body {
 img {
     display: block;
     margin: 20px auto;
+    width: 300px;
 }
 .loader {
     border: 8px solid #ccc; /* Light grey */
@@ -47,4 +48,15 @@ img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+@media screen and (max-width: 400px) {
+    * {
+        font-size: 25px;
+    }
+    img {
+        width: 200px;
+    }
+    .btn {
+        font-size: 25px;
+    }
 }
